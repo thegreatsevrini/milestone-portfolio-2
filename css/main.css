@@ -1,0 +1,145 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Montserrat', serif;
+	color: #ffffff;
+	background-color: #1f202b;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+#header, #portfolio, #about {
+	height: 600px;
+}
+ #contact {
+ 	height: auto;
+ }
+
+.img-resize {
+	height: 350px;
+	width: 550px;
+	border: solid 1px #b7b7b7;
+}
+
+nav a:link {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+
+
+nav a:visited {
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: #fa0075;
+}
+
+.wrapper {
+	max-width: 960px;
+	width: 100%;
+}
+
+/***** GRID *****/
+.full-width {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.half-width {
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+
+.third-width {
+	width: 33.33%;
+	margin: 0 auto;
+	float: left;
+}
+
+/***** HEADER *****/
+header {
+	background-image: url("../img/hero-background.png");
+	background-size: cover;
+	background-color: #1f202b;
+	width: 100%;
+}
+nav {
+	background-color: #1f202b;
+}
+nav h1 {
+	font-size: 30px;
+	display: inline-block;
+}
+
+nav ul {
+	float: right;
+
+	font-size: 30px;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 45px;
+	vertical-align: center;
+}
+
+.jumbotron {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 72px;
+
+}
+
+span {
+	color: #fa0075;
+}
+
+#portfolio {
+	background-color: #1f202b;
+
+}
+
+
+
+.project-description {
+	height: 350px;
+	padding: 25px;
+
+}
+
+
+h2 {
+	text-align: center;
+	color: #fa0075;
+	font-family: 'Source Code Pro', monospace;
+}
+
+
+#about {
+	background-image: url("../img/about-me.png");
+	background-repeat: no-repeat;
+	display: block;
+	clear: both;
+}
+
+#about p {
+	color:#1f202b;
+	width: 50%;
+}
+
+#contact {
+	text-align: center;
+}
+#contact p {
+	clear: both;
+}
+#contact ul li {
+	display: inline-block;
+	padding-right: 45px;
+
+}
