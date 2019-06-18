@@ -143,3 +143,17 @@ h2 {
 	padding-right: 45px;
 
 }
+
+/* ---------- TABLET ----------- */
+
+@media (min-width: 768px) {
+/* 600px and lower */
+
+}
+
+/* ---------- DESKTOP ----------- */
+
+@media (min-width: 1200px) {
+
+    
+}
